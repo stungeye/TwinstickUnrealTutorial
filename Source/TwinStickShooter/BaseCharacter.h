@@ -17,7 +17,7 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Base Character")
 		float Health = 100;
 
-	// Make an life property
+	// Make an isDead property
 	UPROPERTY(BlueprintReadOnly, VisibleAnywhere, Category = "Base Character")
 		bool isDead = false;
 
